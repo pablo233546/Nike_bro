@@ -1,10 +1,9 @@
-- 👋 Hi, I’m @pablo233546
+- 👋 Hi, I’m Pablo Romanskiy
 - 👀 I’m interested in py html and css
 - 🌱 I’m currently learning py
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 💞️ I’m looking to collaborate on Nestle
 - 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+- ⚡ Fun fact: 
 
 <!---
 pablo233546/pablo233546 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
