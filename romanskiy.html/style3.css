@@ -1,0 +1,313 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.6;
+    background-color: #00d9ff;
+    color: #00e5ff; /* Зміна кольору тексту */
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Container Styles */
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 48%;
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.footer-column p {
+    color: #ccc;
+    line-height: 1.5;
+}
+
+/* Heading Styles */
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2em; /* Збільшення розміру шрифту для заголовку h1 */
+}
+
+h2 {
+    color: #007bff; /* Зміна кольору тексту заголовку h2 */
+    font-size: 1.5em; /* Збільшення розміру шрифту для заголовку h2 */
+}
+
+/* Link Styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph Styles */
+p {
+    margin-bottom: 20px; /* Збільшення відступу між параграфами */
+    font-size: 1em; /* Збільшення розміру шрифту для параграфів */
+}/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333; /* Зміна кольору тексту */
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Container Styles */
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-column h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.footer-column p {
+    color: #cccccc;
+}
+
+a {
+    color: #00eeff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h1, h2, h3, h4, h5 {
+font-family: ' Barlow Semi Condensed ', sans-serif ;
+font-weight: 700;
+}
+ 
+
+p
+{
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 400;
+ }
+ footer-columns {
+    display: flex;
+   }
+   .footer-column {
+    flex: 50%;
+    margin: 20px;
+   }
+   header, footer {
+    background-color: #666;
+    padding: 10px;
+   }
+   main {
+    padding: 10px;
+    background-color: silver;
+   }
+   .post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+   }
+   .post img {
+    margin: 20px;
+   } 
+
+   #menu1 ul{
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+   }
+   #menu1 > ul::after{
+    display: block;
+    width: 100%;
+    height: 0px ;
+    clear: both;
+    content: "";
+   }
+
+   #menu1 ul li{
+    position: relative;
+    display: block;
+    float: left;
+    width:  auto;
+    height: auto;
+   }
+   #menu1 ul li ul{
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 200px;
+    background:  #666;
+   }
+   #menu1 ul li a{
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 14px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: white;
+    background-color: #666;
+   }
+   #menu1 ul li:hover ul{
+    display: block;
+   }
+   #menu1 ul li ul li{
+    font: none;
+    width: 100%;
+   }
+   #menu ul li ul li a{
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1PX solid #ffffff;
+    color: white;
+   }
+   #menu1 ul li ul :first-child a{
+    border-top: 0px;}
+
+    #m2{
+        margin: 5px;
+        background-color: #756781;  
+    }
+/* Heading Styles */
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+h1 {
+    color: #333;
+    font-size: 2em; /* Збільшення розміру шрифту для заголовку h1 */
+}
+
+h2 {
+    color: #007bff; /* Зміна кольору тексту заголовку h2 */
+    font-size: 1.5em; /* Збільшення розміру шрифту для заголовку h2 */
+}
+
+/* Link Styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Paragraph Styles */
+p {
+    margin-bottom: 20px; /* Збільшення відступу між параграфами */
+    font-size: 1em; /* Збільшення розміру шрифту для параграфів */
+}
